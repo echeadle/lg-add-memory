@@ -1,0 +1,17 @@
+[project]
+name = "lg-add-memory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipython>=9.3.0",
+    "jupyter>=1.1.1",
+    "langchain-tavily>=0.2.4",
+    "langchain[openai]>=0.3.26",
+    "langgraph>=0.5.0",
+    "langsmith>=0.4.3",
+    "pillow>=11.2.1",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.1",
+]
